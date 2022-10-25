@@ -20,16 +20,16 @@
 | 16 | Кивака Алексей Владимирович    | okiopik                      |:heavy_check_mark:|:heavy_check_mark:|7        |
 | 17 | Коверец Елена Дмитриевна       | Lena Koverets                |:heavy_check_mark:|:heavy_check_mark:|7        |
 | 18 | Кулиш Сергей Юрьевич           | Heulines                     |                  |                  |5        |
-| 19 | Левоцкий Никита Дмитриевич     | meesery                      |                  |:heavy_check_mark:|7        |
+| 19 | Левоцкий Никита Дмитриевич     | meesery                      |:heavy_check_mark:|:heavy_check_mark:|7        |
 | 20 | Лукашук Сергей Игоревич        | sergeilukashuk               |                  |                  |5        |
 | 21 | Манюк Ксения Владимировна      | ksenia232123                 |                  |                  |5        |
-| 22 | Пархоць Анна Владимировна      | parkhotsann                  |                  |                  |5        |
+| 22 | Пархоць Анна Владимировна      | parkhotsann                  |:heavy_check_mark:|:heavy_check_mark:|7        |
 | 23 | Пикун Дмитрий Александрович    | Dmitry Pikun                 |                  |:heavy_check_mark:|7        |
 | 24 | Савиков Максим Сергеевич       | KomRAD121                    |                  |                  |5        |
 | 25 | Сахацкий Александр Сергеевич   | Sanyajo                      |:heavy_check_mark:|:heavy_check_mark:|7        |
 | 26 | Строганов Данила Сергеевич     | danik28                      |                  |                  |5        |
 | 27 | Фоминюк Николай Степанович     | 1Nick10                      |                  |:heavy_check_mark:|7        |
-| 28 | Хабовец Тимофей Васильевич     | TimKhabovets                 |                  |:heavy_check_mark:|7        |
+| 28 | Хабовец Тимофей Васильевич     | TimKhabovets                 |:heavy_check_mark:|:heavy_check_mark:|7        |
 | 29 | Хубиев Мурадбек Алибекович     | MuradKhubiev                 |                  |                  |5        |
-| 30 | Цыганов Евгений Александрович  | Ts1ganoV                     |:heavy_check_mark:|                  |5        |
+| 30 | Цыганов Евгений Александрович  | Ts1ganoV                     |:heavy_check_mark:|:heavy_check_mark:|7        |
 
