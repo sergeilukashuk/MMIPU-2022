@@ -10,7 +10,7 @@ double NoLineModel(double& y_t, double& ctime, double& f_t, int time);
 int main ()
 {
     setlocale(LC_ALL,"RUS");
-    double y_t, f_t, ctime=0;
+    double y_t, f_t;
     int time;
     int number;
     cout<<"Выберите модель (1- линейная, 2 - нелинейная): ";
@@ -43,13 +43,15 @@ int main ()
             cout << "Введите начальную температуру (y_t): ";
             cin >> y_t;
             cout << endl;
+            double ctime=0;
             cout << "Введите температуру(в наст момент време) (f_t): ";
             cin >> f_t;
             cout << endl;
             cout << "Введите время (>0): ";
             cin >> time;
             file<<"Нелинейная модель"<<endl;
-            for(int i = 0;i<time;i++){
+            for(int i = 0;i<time;i++){ 
+
                 double temp= ctime;
                 y_t= NoLineModel(y_t,ctime,f_t,time);
                 cout<<"Результат нелинейной функции: "<<y_t<<endl;
