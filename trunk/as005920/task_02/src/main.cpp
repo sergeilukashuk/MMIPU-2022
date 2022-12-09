@@ -24,22 +24,22 @@ public:
 
 class PID_controller{
 private:
-    double _u;
+    double u=0;
 public:
     double controller(double& e, double& e1, double& e2,double& _Td, double& _T, double& _T0, double& _k){
         double q0 = _k*(1+(_Td/_T0));
         double q1 = -1*_k*(1+2*(_Td/_T0)-(_T0/_T));
         double q2 = _k * (_Td/_T0);
-        _u += q0*e + q1*e1 + q2*e2;
-        return _u;
+        u += q0*e + q1*e1 + q2*e2;
+        return u;
     }
     double PID_contr(double& w, double& y0, Regulator* model,double& _a, double& _b, double& _c, double& _d,double& _Td, double& _T, double& _T0, double& _k){
         double errorPrev = 0, error2Prev = 0, y = y0;
         for (int i = 0; i <100; i++) {
             double error, u;
             error = w - y;
-            _u = controller(error, errorPrev, error2Prev,_Td,_T,_T0,_k);
-            y = model->regulator(y0, _u,_a,_b,_c,_d);
+            u = controller(error, errorPrev, error2Prev,_Td,_T,_T0,_k);
+            y = model->regulator(y0,u,_a,_b,_c,_d);
             error2Prev = errorPrev;
             errorPrev = error;
         }
@@ -50,7 +50,7 @@ int main(){
 
     double w , y;
     double a , b , c , d ;
-    double u,Td, T, T0, k;
+    double Td, T, T0, k;
     cout<<"Input w: ";
     cin>>w;
     cout<<"Input y: ";
@@ -63,8 +63,6 @@ int main(){
     cin>>c;
     cout<<"Input d: ";
     cin>>d;
-    cout<<"Input u: ";
-    cin>>u;
     cout<<"Input Td: ";
     cin>>Td;
     cout<<"Input T: ";
