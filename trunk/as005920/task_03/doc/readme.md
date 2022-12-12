@@ -31,5 +31,5 @@
 5) Осталось дать нашему файлу все права доступа (0777). После чего необходимо запустить этот файл, используя терминал контроллера.
 ## Результат выполнения программы
 
-![Отчет](https://raw.githubusercontent.com/brstu/MMIPU-2022/b0837e11bc1624cb33b4c858e6b60b38c406c82c/trunk/as005925/task_03/doc/image/console.png)
+![Отчет](https://raw.githubusercontent.com/brstu/MMIPU-2022/542701abf05e87fdb9926de9aa5991d65a057467/trunk/as005920/task_03/doc/rezult.jpg)
 
